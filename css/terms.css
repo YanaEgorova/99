@@ -1,0 +1,25 @@
+.terms__wrapper {
+    background-color: var(--first-brand-color);
+}
+.terms__container-wrapper {
+    /* background-color: var(--fourth-brand-color); */
+}
+.terms {
+    padding-top: 10rem;
+}
+.terms .text {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.terms__text-sm-mb {
+    margin-bottom: 2rem;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+@media screen and (min-width: 1024px) {
+    .policy__subtitle {
+       font-size: 2rem;
+    }
+}

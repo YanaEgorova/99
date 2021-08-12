@@ -1,0 +1,9 @@
+.contact__wrapper {
+    background-image:none;
+    padding-bottom: 4rem;
+    background-color: var(--main-bg-color);
+}
+.contact-body {
+    background-color: var(--first-brand-color);
+    min-height: 100vh;
+}

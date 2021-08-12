@@ -1,0 +1,17 @@
+.info__wrapper {
+    background-color: var(--third-brand-color);
+}
+.info {
+    padding: 5rem 0;
+}
+.info .sub-title {
+    margin-bottom: 0;
+    color: var(--sub-text-color);
+}
+@media screen and (min-width: 1024px)  {
+    .info {
+        padding: 10rem 0;
+    }
+}
+
+

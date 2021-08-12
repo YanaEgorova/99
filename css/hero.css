@@ -1,0 +1,19 @@
+.hero__wrapper {
+   /* background-color: var(--second-brand-color); */
+   background-image: url('../img/bg.jpeg');
+}
+.hero {
+   padding: 10rem 0;
+}
+@media screen and (min-width: 1024px)  {
+    .hero {
+        padding: 15rem 0;
+        text-align: left;
+    }
+    .hero .btn {
+       display: block;
+       width: 19rem;
+       text-align: center;
+       margin-left: 0;
+    }
+}

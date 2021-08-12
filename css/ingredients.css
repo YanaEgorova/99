@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: var(--first-brand-color);
+}
+caption {
+    padding: 1rem;
+    border: .2rem solid var(--second-brand-color);
+    border-bottom: .6rem solid var(--second-brand-color); 
+    background-color: var(--first-brand-color);
+}
+.bt-br {
+    border-bottom: .6rem solid var(--second-brand-color); 
+}
+tr {
+    padding: 1rem;
+    border: .2rem solid var(--second-brand-color);
+}
+td {
+    padding: 1rem;
+}
+.ingredients .title, .ingredients .text {
+    max-width: 100%;
+    margin-bottom: 0;
+}
+caption .text {
+    text-align: left;
+    margin-bottom: 0;
+}
+.ct {
+    text-align: center;
+}
+.pd-lf {
+    padding-left: 1rem;
+}
+@media screen and (min-width: 1024px)  {
+
+}

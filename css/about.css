@@ -1,0 +1,14 @@
+@media screen and (min-width: 1024px)  {
+    .about__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .img {
+        margin: 0;
+        margin-right: 5rem;
+    }
+    .about .list {
+        text-align: left;
+    }
+}

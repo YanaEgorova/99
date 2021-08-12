@@ -1,0 +1,143 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+  scroll-behavior: smooth;
+  font-weight: 100;
+}
+​img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+p {
+  margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
+input:focus,
+input:active,
+button:active,
+button:focus {
+  outline: none;
+}
+.container {
+  padding: 5rem 2rem;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  text-align: center;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: var(--sub-text-color);
+  background-color: var(--first-brand-color);
+  padding: 3rem;
+  display: inline-block;
+}
+.sub-title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+.text {
+  font-size: 2rem;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  line-height: 1.3;
+}
+.img {
+  width: 100%;
+  max-width: 50rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+}
+.btn {
+  padding: 3rem 4rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: inline-block;
+  transition: all .3s ease-in-out;
+  border: .4rem solid var(--third-brand-color);
+  background-color: var(--third-brand-color);
+  color: var(--sub-text-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+.item:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.fw {
+  font-weight: 700;
+}
+.bg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 1024px)  {
+  .title {
+    font-size: 7rem;
+    margin-bottom: 2rem;
+  }
+  .text {
+    font-size: 2.2rem;
+  }
+  .btn:hover, .btn:focus {
+    transform: scale(1.1);
+  }
+  .list-fl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .sub-title {
+    font-size: 3rem;
+  }
+}

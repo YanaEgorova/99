@@ -1,0 +1,16 @@
+:root {
+    --main-bg-color: #fff;
+    --sub-bg-color: #000;
+    --sub-text-color: #fff;
+    --accent-color: red;
+
+    --main-text-color: #000;
+
+    --first-brand-color: #94618e;
+    --second-brand-color: #f4decb;
+    --third-brand-color: #49274a;
+
+    --main-font: 'MADE TOMMY';
+    
+    font-size: 62.5%;
+}
